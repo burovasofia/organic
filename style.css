@@ -86,3 +86,273 @@ h1, h2, h3, h4, h5, h6, {
 }
 
 
+/*=============welcome==========*/
+
+
+.welcome {
+    width: 100%;
+    background: url("img/icon/IMAGE.jpg") center no-repeat;
+    background-size: cover;
+    height: 913px;
+    padding-top: 220px;
+    padding-left: 30px;
+}
+
+
+
+.welcome_title {
+    font-family: 'Yellowtail', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    font-style: initial;
+
+    color: #7EB693;
+}
+
+
+.welcome_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 84px;
+
+    letter-spacing: 0.36px;
+
+    color: #274C5B;
+    width: 496px;
+    }
+
+.welcome_button {
+    width: 219px;
+    height: 82px;
+    background: #EFD372;
+    border: 1px solid #EFD372;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    transition: background .2s linear;
+}
+
+.welcome_button:hover {
+    background: #f2c10d;
+}
+
+
+.btn_tetx {
+    margin-left: 33px;
+    font-family: 'Roboto';
+
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+
+    letter-spacing: 0.36px;
+
+    color: #274C5B;
+}
+
+.welcome_btn {
+    width: 38px;
+    height: 34px;
+    background: #335B6B;
+    border: 0;
+    border-radius: 50%;
+    margin-left: 24px;
+}
+
+.btn_icon {
+    margin-top: 2px;
+}
+
+
+/*==========natural=========*/
+
+.natural {
+    display: flex;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    padding: 0 30px;
+    justify-content: center;
+}
+
+.natural_item {
+    position: relative;
+    margin-right: 50px;
+}
+
+.natural_item:last-child {
+    margin-right: 0;
+}
+
+.natural_title {
+    position: absolute;
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+
+    letter-spacing: 0.36px;
+
+    color: #FFFFFF;
+    top: 105px;
+    left: 55px;
+}
+
+.natural_text {
+    position: absolute;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+
+    letter-spacing: 0.36px;
+
+    color: #FFFFFF;
+    left: 55px;
+    top: 169px;
+    width: 264px;
+}
+
+.title-two {
+    color: #7EB693;
+}
+
+.text-two {
+    color: #274C5B;
+}
+
+
+/*=======about======*/
+
+.about {
+    display: flex;
+    background-color: #F9F8F8;
+    padding-top: 130px;
+    padding-bottom: 150px;
+}
+
+
+.about_photo img {
+    border-radius: 50%;
+}
+
+.about_item {
+    margin-left: 30px;
+}
+
+.about_subtitle {
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+
+    color: #7EB693;
+}
+
+.about_title {
+    width: 521px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+
+    color: #274C5B;
+}
+
+.about_text {
+    width: 670px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+    letter-spacing: 0.36px;
+
+    color: #525C60;
+    margin-bottom: 58px;
+}
+
+.about_inner {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+
+
+.about_inner_icon {
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+
+.about_inner_icon img {
+    margin-top: 25px;
+}
+
+.inner {
+    width: 552px;
+}
+
+
+.about_inner_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+
+    color: #274C5B;
+}
+
+.about_inner_text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+    letter-spacing: 0.36px;
+
+    color: #525C60;
+}
+
+.about-btm {
+    background: #274C5B;
+    border: 2px solid #274C5B;
+    border-radius: 16px;
+}
+
+.about-btm-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
